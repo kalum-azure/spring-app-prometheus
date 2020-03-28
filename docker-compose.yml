@@ -1,0 +1,8 @@
+version: "3.3"
+
+services:
+  spring-prometheus:
+    image: myapp/spring-prometheus:latest
+    restart: always
+    ports:
+      - 8090:8090
